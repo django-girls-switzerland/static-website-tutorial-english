@@ -1,3 +1,13 @@
-# First Chapter
+# A static website
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+This chapter exists of the followingsections:
+
+* Introduction
+* Tools
+* Preparation
+* Your first message to the world
+* HTML
+* CSS
+
+
+

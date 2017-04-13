@@ -1,5 +1,11 @@
 # Django Girls Bern Extended Workshop
 
+> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
+>
+> This tutorial is ment to be used closely together with the official djangogirls tutorial and has duplicated some material from it for convenience \([https://tutorial.djangogirls.org/en](https://tutorial.djangogirls.org/en), licensed under the Creative Commons Attribution-ShareAlike 4.0 International License\)
+>
+> The CSS chapter is inspired by and uses material from the Introduction to HTML/CSS curriculum from Girl Develop It \([https://www.girldevelopit.com/materials/html-intro](https://www.girldevelopit.com/materials/html-intro), licensed under the MIT License\)
+
 ## What we will do during this workshop
 
 ### Learn how the internet works

@@ -8,7 +8,7 @@ For this part of the tutorial you will need the following tools:
 * Git
 * a Github account
 
-You can find the explanation of how to install those things in the Installation chapter of the Django Girls Tutorial. You only have to do the following sections:
+You can find the explanation of how to install those things in the [Installation chapter of the Django Girls Tutorial](https://tutorial.djangogirls.org/en/installation/#install-a-code-editor). You only have to do the following sections:
 
 * Install a code editor
 * install GIT
@@ -18,9 +18,11 @@ You can find the explanation of how to install those things in the Installation 
 
 The next thing you will need is a folder on your computer to put your codefiles of the workshop in. Your Home directory is a good choice in most cases. On Windows this might look something like this: `C:\Users\Name\` \(with `Name` your login name\).
 
+> **NOTE:** On Windows, make sure that this directory does not contain accented or special characters; if your username contains accented characters, use a different directory, for example `C:\djangogirls`.
+
 In this folder we will now create a subfolder with the name  `djangogirls`.
 
-To do this we will have to open the terminal and navigate to the right place \(you can find an explanation of what the terminal is in the Tools section\)
+To do this we will have to open the terminal and navigate to the right place \(you can find an explanation of what the terminal is in the [Tools](/chapter1/tools.md) section\)
 
 We will write here where you will most probably finde the Terminal on your computer. Ask your coach to help you if you don't find it:
 

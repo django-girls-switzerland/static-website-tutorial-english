@@ -1,6 +1,6 @@
 ## Structure with HTML
 
-We already mentioned HTML in the introduction \(How the internet works\). It means Hyper Text Markup Language. HTML exists of so called tags: 
+We already mentioned HTML in the introduction \(How the internet works\). It means Hyper Text Markup Language. HTML exists of so called tags:
 
 * &lt; elementname &gt; : start tag
 * &lt;/ elementname &gt; : end tag
@@ -27,9 +27,9 @@ A HTML text uses different HTML-tags for structure and correct display. Those ta
 <h1>Title with <a href="http://something.com">Link</a></h1>
 ```
 
-In addition, each HTML-page has a base structure that is always the same. The outermost tag bair is always &lt;html&gt;...&lt;/html&gt;. Inside of this there are two parts: head and body. The body contains information that is displayed on the actual page. The Head on the other hand contains meta information, for example the title of the page, which CSS files should be used for the layout, the keywords for search engines ect. 
+In addition, each HTML-page has a base structure that is always the same. The outermost tag bair is always &lt;html&gt;...&lt;/html&gt;. Inside of this there are two parts: head and body. The body contains information that is displayed on the actual page. The Head on the other hand contains meta information, for example the title of the page, which CSS files should be used for the layout, the keywords for search engines ect.
 
-The complete base structure looks like this: 
+The complete base structure looks like this:
 
 ```
 <html>
@@ -42,15 +42,15 @@ The complete base structure looks like this:
 </html>
 ```
 
-In order to make the HTML-text more readable for humans nested tags are indented compared to their parent tags. 
+In order to make the HTML-text more readable for humans nested tags are indented compared to their parent tags.
 
-Using this you are now able to improve you web page in the index.html. You could for example make a text with a title and a list of links to the pages of the other people in your group at the bottom.  The exact content of your page is not so important right now. The most important thing is that you get the chance to play around with HTML tags a bit. 
+Using this you are now able to improve you web page in the index.html. You could for example make a text with a title and a list of links to the pages of the other people in your group at the bottom.  The exact content of your page is not so important right now. The most important thing is that you get the chance to play around with HTML tags a bit.
 
 If you want to have a look at how your website would look like while you are putting in more and more HTML tags, you can always save your file and open it in your browser.
 
- ![](/assets/tutorial_screenshot.png)
+![](/assets/tutorial_screenshot.png)
 
-When you are happy with the content and structure of your page, it is time to publish a new version online. To do this we go back to the Terminal window \(ideally you still have it open somewhere\). 
+When you are happy with the content and structure of your page, it is time to publish a new version online. To do this we go back to the Terminal window \(ideally you still have it open somewhere\).
 
 command-line
 
@@ -70,11 +70,8 @@ $ git commit -m "adding html"
 [master 9bfcf50] adding html
  1 file changed, 20 insertions(+), 2 deletions(-)
  rewrite index.html (100%)
-$ git push -u origin master
-
+$ git push
 ```
 
 Now just enter your Github username and password when asked for it and that was it! The newest version of your website is online now! Woohoow :D!
-
-
 

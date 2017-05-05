@@ -52,7 +52,7 @@ $ git commit -m "a little bit of css"
 [master a0850fb] a little bit of css
  2 files changed, 4 insertions(+)
  create mode 100644 main.css
-$ git push -u origin master
+$ git push
 ```
 
 Enter your Github username and password, and it is done! Woohoow!
@@ -192,7 +192,7 @@ $ git commit -m "a complete web page including css"
 [master 80c1d78] a complete web page including css
  2 files changed, 63 insertions(+), 22 deletions(-)
  rewrite index.html (87%)
-$ git push -u origin master
+$ git push
 ```
 
 

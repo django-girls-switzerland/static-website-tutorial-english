@@ -59,7 +59,7 @@ Enter your Github username and password, and it is done! Woohoow!
 
 If you look closer to the code that we wrote int our CSS file you will see that it looks similar to the image below. Except that we have used another color and another selector.  Can you guess whet the css form the image does? \(If you want to try it out, you can type the code from the image into your CSS file right under what we have written earlier. Then save it and have a look at index.html in your browser. As \#333333 is a very dark grey that might be hard to distinguish from bleck, it might be a good idea to replace it with another colorcode to see what is going on.\)![](/assets/cssrule.png)Image from [https://www.girldevelopit.com/materials](https://www.girldevelopit.com/materials)
 
-So the thing we have written is called a CSS rule. To define the complete layout of your website you need a whole lot of those CSS rules. You can just write them one after the other in your CSS file. Each rule can have multiple declarations. Declarations are always of the form `Eigenschaft: Wert;` .
+So the thing we have written is called a CSS rule. To define the complete layout of your website you need a whole lot of those CSS rules. You can just write them one after the other in your CSS file. Each rule can have multiple declarations. Declarations are always of the form `property: value;` .
 
 We could for example change the CSS rule of the 'h1' selector we wrote earlier to: :
 
@@ -87,7 +87,7 @@ You can find other examples of fonts for the web on [http://www.w3schools.com/cs
 
 Until now we have alsways used names of HTML tags as selectors for our CSS rules. This is useful when the CSS rule has to be aplied to all headings, paragraphs or links. But it doesn't work when you only want to apply a particular layout to only a group of elements. For this case we need another type of selectors: IDs and classes. To each HTML tag we can add one or multiple classes and one id. We have to take care that ids have to be unique per page \(one ide cannot appear multiple times in one page\). Classes however can be added to multiple elements on the same page.
 
-| Name | Benutzung im HTML-File | Benutzung im CSS-File |
+| Name | Usage in the HTML-File | Usage in theCSS-File |
 | :--- | :--- | :--- |
 | ID | `<p id="one_green_thing"> some green text </p>` | `#one_green_thing{ color: #00ff00;}` |
 | Class | `<h1 class="all_red_things">Red title</h1><p class="all_red_things"> some red text </p>` | `.all_red_things{ color: #ff0000;}` |

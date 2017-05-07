@@ -8,6 +8,8 @@ The first thing to do is moving your .html and .css files in the right place in 
 
 > Note: If you want to keep your static website available on the github.io url, you should keep the files in the original location as well, so in this case, you should copy them rather than move them.
 
+![](/assets/django-blog-structure.jpg)
+
 You can add your .html files in the blog/templates/blog folder and the css-file in blog/static/css folder. So basically you add the .css file to the folder that already contains a .css file, and the .html file to the folder that already contains your django-html templates. During this process it is a good idea to rename the index.html file to some name  that is a bit more explanatory, such as about.html \(In the rest of this tutorial we will assume that you renamed your html file to about.html and that you want it to appear under the .../about url\)
 
 ## Adding a url and a simple view

@@ -11,3 +11,5 @@
 * [Extras for your static website](introduction.md)
 * [Adding your static page to Django](adding-your-static-page-to-django.md)
 
+
+

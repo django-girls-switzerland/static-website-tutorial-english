@@ -1,22 +1,9 @@
-## Preparation
+## Final Preparations
+These are the final preparations before we can finally get to the fun parts of creating our website.
 
-### Installing the tools
+### Create a Django Girls Folder on Your Computer
 
-For this part of the tutorial you will need the following tools:
-
-* A code editor
-* Git
-* a Github account
-
-You can find the explanation of how to install those things in the [Installation chapter of the Django Girls Tutorial](https://tutorial.djangogirls.org/en/installation/#install-a-code-editor). You only have to do the following sections:
-
-* Install a code editor
-* install GIT
-* Create a GitHub account
-
-### A djangogirls folder on your computer
-
-The next thing you will need is a folder on your computer to put your codefiles of the workshop in. Your Home directory is a good choice in most cases. On Windows this might look something like this: `C:\Users\Name\` \(with `Name` your login name\).
+The next thing you will need is a folder on your computer to put your codefiles of the workshop in. Your 'Home' directory is a good choice in most cases. On Windows this might look something like this: `C:\Users\Name\` \(with `Name` your login name\).
 
 > **NOTE:** On Windows, make sure that this directory does not contain accented or special characters; if your username contains accented characters, use a different directory, for example `C:\djangogirls`.
 
@@ -49,13 +36,13 @@ $ cd djangogirls
 
 Don't close the Terminal after this, you will need it again later!
 
-### A Github Repository
+### Create a Github Repository
 
-We know already that Github is a place to store youre versioned code projects. Every project has a so called Repository. This is a special kind of Folder that also stores the different versions and changes you made to your files. The magic thing behind this is an invisible subfolder with the name .git
+We know already that Github is a place to store youre versioned code projects. Every project has a so called 'repository'. This is a special kind of Folder that also stores the different versions and changes you made to your files. The magic thing behind this is an invisible subfolder with the name .git
 
-On GitHub we will know createa new Repository and then clone this to our own computer, so that it appears in our filesystem.
+On GitHub we will know create a new repository and then clone this to our own computer, so that it appears in our file system.
 
-In your browser go to `https://github.com/new` \(if you get a 404 error, you will have to login first\). You only have to fill in the field called repository as follows: `username.github.io` with your own Github username instead of the word username. Make sure that the part before the first dot is exactly the same as your Github username. This is because Github will only display the files of the repository called exactly like this as a website \(the other directories will just be displayed as code files\) on `http://username.github.io`. Then press Create Repository
+In your browser go to `https://github.com/new` \(if you get a 404 error, you will have to login first\). You only have to fill in the field called repository as follows: `username.github.io` with your own Github username instead of the word username. Make sure that the part before the first dot is exactly the same as your Github username. This is because Github will only display the files of the repository called exactly like this as a website \(the other directories will just be displayed as code files\) on `http://username.github.io`. Then press 'Create Repository'.
 
 Now you can go back to the Terminal and clone the repository you just created to youre computer with the command line commands below. To do this always replace username with your Github username, and replace Your Name and you@example.com with your name and email address. The lines that don't start with a dollar sign '$' are not meant to be typed by you, they are the answers of the computer to your commands. Your Terminal should respond more or less the same way as in the example below.
 

@@ -195,5 +195,8 @@ $ git commit -m "a complete web page including css"
 $ git push
 ```
 
+Congrats, you made it! You finished part 2 of your workshop and published your very own website on github. Go check it out and be proud of yourself!
+
+After you enjoyed your success enough go back to the [overview](README.md) and continue with part 3: 'Introduction to Python'.
 
 

@@ -1,6 +1,6 @@
 # A static website
 
-This chapter exists of the followingsections:
+This chapter exists of the following sections:
 
 * [Introduction](/chapter1/introduction.md)
 * [Tools](/chapter1/tools.md)

@@ -25,3 +25,4 @@
 
 * [Extras](extras/README.md)
   * [Adding your static page to Django](extras/adding-your-static-page-to-django.md)
+  * [Django Girls tutorial extensions](https://tutorial.djangogirls.org/en/django/)

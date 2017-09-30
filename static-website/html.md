@@ -29,7 +29,7 @@ A HTML text uses different HTML-tags for structure and correct display. Those ta
 <h1>Title with <a href="http://something.com">Link</a></h1>
 ```
 
-In addition, each HTML-page has a base structure that is always the same. The outermost tag pair is always &lt;html&gt;...&lt;/html&gt;. Inside of this there are two parts: head and body. The body contains information that is displayed on the actual page. The head on the other hand contains meta information, for example the title of the page, which CSS files should be used for the layout, the keywords for search engines ect.
+In addition, each HTML-page has a base structure that is always the same. The outermost tag pair is always &lt;html&gt;...&lt;/html&gt;. Inside of this there are two parts: head and body. The body contains information that is displayed on the actual page. The head on the other hand contains meta information, for example the title of the page, which CSS files should be used for the layout, the keywords for search engines etc.
 
 The complete base structure looks like this:
 
@@ -75,8 +75,8 @@ $ git commit -m "adding html"
 $ git push
 ```
 
-Just enter your Github username and password when asked for it and that was it! The newest version of your website is online now! Woohoow :D!
+Just enter your GitHub username and password when asked for it and that was it! The newest version of your website is online now! Woohoow :D!
 
 Now you know everything about HTML, can you do us a favor and add a picture of a unicorn (or a cat if you prefer cats) to your website? Can you figure out what tag to use and how? :)
 
-Once you have your unicorn/cat on your website you can continue with adding some [style to your website using CSS.](chapter1/css.md)
+Once you have your unicorn/cat on your website you can continue with adding some [style to your website using CSS.](./css.md)

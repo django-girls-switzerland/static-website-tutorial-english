@@ -3,7 +3,7 @@ To be fully prepared for the workshop please follow the steps below to get your 
 
 ### Installing the tools
 
-You need to install a code editor and Git and create a Github account.
+You need to install a code editor and Git and create a GitHub account.
 
 #### Install a code editor
 

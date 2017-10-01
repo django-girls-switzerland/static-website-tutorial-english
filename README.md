@@ -31,7 +31,7 @@ Your Django blog independent of your static website at first (we can make them w
 Depending on your time and interest, you can work on those topics during the workshop, at home, or during one of the follow-up events:
 
 * [Integrating your static website into your Django project](./extras/adding-your-static-page-to-django.md)
-* Using the [Django Girls tutorial extensions](https://tutorial.djangogirls.org/en/django/) to improve your blog.
+* Using the [Django Girls tutorial extensions](https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/content/en/) to improve your blog.
 
 > This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 >

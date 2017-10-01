@@ -23,7 +23,7 @@ This is where things get nerdy \(but don't worry, your coach is there to help\).
 
 ### 4. Django: Your Blog is a Dynamic Website (Sunday, all day)
 
-Now it is time to really get into the Django Girls tutorial. We start with the chapter ["What is Django?""](https://tutorial.djangogirls.org/en/django/) and work through the following chapters during the day.
+Now it is time to really get into the Django Girls tutorial. We start with the chapter ["What is Django?"](https://tutorial.djangogirls.org/en/django/) and work through the following chapters during the day.
 Your Django blog independent of your static website at first (we can make them work together later), so you will have to start from a new folder. Also in GitHub we will store it separately from your previous code. Because GitHub can only serve static websites all by itself, we will have to publish \(also called deploy in programmer slang\) our website using yet another internet service called Pythonanywhere. We will still use GitHub to store our code, but this time it is only an intermediate step and we will have to use Pythonanywhere to actually display our site. This sounds complicated, and it is. Once you have managed to get your dynamic site online, that is a big achievement. But no worries, everything is explained in detail in the Django Girls Tutorial and we will help you to get there.
 
 ## C. Extras
@@ -31,7 +31,7 @@ Your Django blog independent of your static website at first (we can make them w
 Depending on your time and interest, you can work on those topics during the workshop, at home, or during one of the follow-up events:
 
 * [Integrating your static website into your Django project](./extras/adding-your-static-page-to-django.md)
-* Using the [Django Girls tutorial extensions](https://tutorial.djangogirls.org/en/django/) to improve your blog.
+* Using the [Django Girls tutorial extensions](https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/content/en/) to improve your blog.
 
 > This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 >

@@ -83,7 +83,7 @@ h1 {
 }
 ```
 
-You can find other examples of fonts for the web on [http://www.w3schools.com/cssref/css\\_websafe\\_fonts.asp](http://www.w3schools.com/cssref/css_websafe_fonts.asp) Those fonts are used very often and most browsers provide them by default. If you want to use more exotic fonts, you will have to provide the font with your website, as the browser doesn't automatically know all fonts. You can find more info about this in the chapter[ extras for your static website](./introduction.md).
+You can find other examples of fonts for the web on [http://www.w3schools.com/cssref/css\\_websafe\\_fonts.asp](http://www.w3schools.com/cssref/css_websafe_fonts.asp). Those fonts are used very often and most browsers provide them by default. If you want to use more exotic fonts, you will have to provide the font with your website, as the browser doesn't automatically know all fonts. You can find more information on [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts).
 
 Until now we have always used names of HTML tags as selectors for our CSS rules. This is useful when the CSS rule has to be applied to all headings, paragraphs or links. But it doesn't work when you only want to apply a particular layout to only a group of elements. For this case we need another type of selectors: IDs and classes. To each HTML tag we can add one or multiple classes and one id. We have to take care that ids have to be unique per page \(one id cannot appear multiple times in one page\). Classes however can be added to multiple elements on the same page.
 

@@ -22,6 +22,8 @@ Download Git from [git-scm.com](https://git-scm.com) and just follow the instruc
 
 > **NOTE:** Note If you are running OS X 10.6, 10.7, or 10.8, you will need to install the version of git from here: Git installer for OS X Snow Leopard
 
+> macOS High Sierra: It is not possible anymore to get rid of the system version of git (the so called git stub) using the proposed "sudo mv /usr/bin/git /usr/bin/git-system" from git-scm, neither does /usr/local/bin take precedence over /usr/bin. The easiest way to get your new git installation working, is to create a .bash_profile in your home with just one line: 'export PATH="/usr/local/bin:$PATH"'. Afterwards restart your terminal.
+
 ##### Windows
 You can download Git from [git-scm.com](https://git-scm.com). You can hit "next" on all steps except for one; in the fifth step entitled "Adjusting your PATH environment", choose "Use Git and optional Unix tools from the Windows Command Prompt" (the bottom option). Other than that, the defaults are fine. Checkout Windows-style, commit Unix-style line endings is good.
 

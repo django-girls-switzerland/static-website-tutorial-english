@@ -8,7 +8,7 @@ Please prepare for the workshop by installing Python, Git and Atom on your lapto
 
 Her you'll find the technical presentations of the workshop:
 
-* Saturday: [Einführung in Programmiersprachen und Tools](https://docs.google.com/a/djangogirls.org/presentation/d/1LHgdzb5fePfOkqFqDDeWhLfz2WmAVPvZPPSpSTgPLdQ/edit?usp=sharing) \(German\)
+* Saturday: [Programmiersprachen und Tools](https://docs.google.com/a/djangogirls.org/presentation/d/1LHgdzb5fePfOkqFqDDeWhLfz2WmAVPvZPPSpSTgPLdQ/edit?usp=sharing) \(German\)
 * Sunday: TBD
 
 During the workshop we'll go through the following topics.

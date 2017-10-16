@@ -1,4 +1,5 @@
 ## Final Preparations
+
 These are the final preparations before we can finally get to the fun parts of creating our website.
 
 ### Create a Django Girls Folder on Your Computer
@@ -57,6 +58,8 @@ warning: You appear to have cloned an empty repository.
 Checking connectivity... done.
 $ cd username.github.io
 ```
+
+Please note that newer versions of git don't display the *Checking connectivity* line. In general, it's OK that the actual messages printed by the tools are a little bit different than what's shown in the tutorial.
 
 In the `djangogirls` folder you should now see a folder with the name `username.github.io`. Again, don't close the terminal window, you will need it again and again to work with git and to push you changes to Github.
 

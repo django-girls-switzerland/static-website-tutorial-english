@@ -4,7 +4,7 @@ Now that you have learned how to use the tools (Command Line, git, GitHub) that 
 
 ![](/assets/python.png)
 
-[Python](https://en.wikipedia.org/wiki/Python_(programming_language) is a widely used general-purpose programming language. That means that you can use it for all kinds of different tasks. Here is just a short list of things that Python is used for:
+[Python](https://en.wikipedia.org/wiki/Python_(programming_language)) is a widely used general-purpose programming language. That means that you can use it for all kinds of different tasks. Here is just a short list of things that Python is used for:
 
 * automatic tasks such as copying and renaming files
 * downloading and processing data from the internet

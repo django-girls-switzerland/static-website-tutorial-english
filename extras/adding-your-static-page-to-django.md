@@ -42,11 +42,9 @@ This should make your static about page available on localhost:8000/about
 
 So now you have made your static page available inside your Django project. But it still looks totally different than the pages of your blog, and it doesn't use the base.html template containing the navigation that we have used in our blog. So now it is time to decide which parts of the layout of which project you want to keep. Here are some tips on how to unify your layout:
 
-It is a good idea to keep using bootstrap as you did in your django blog project. Bootstrap can help you make a nice looking website quicker. If you want to know more about using bootstrap you can look in the official documentation on [http://getbootstrap.com](http://getbootstrap.com) \(the css and components parts are an interesting place to start\) or follow a bootstrap tutorial \(for example on codecademy:  [https://www.codecademy.com/courses/web-beginner-en-yjvdd/0/1\](https://www.codecademy.com/courses/web-beginner-en-yjvdd/0/1%29\)
+It is a good idea to keep using bootstrap as you did in your django blog project. Bootstrap can help you make a nice looking website quicker. If you want to know more about using bootstrap you can look in the official documentation on [http://getbootstrap.com](http://getbootstrap.com) \(the css and components parts are an interesting place to start\).
 
-{% raw %}
-Add the `{% extends 'blog/base.html' %}` and `{% block content %}` and `{% endblock content %}`, templatetags to your about.html page. The 'extends' tag should come at the very top and the block tags should surround your actual page content.
-{% endraw %}
+Add the <code>{&percnt; extends 'blog/base.html' &percnt;}</code> and <code>{&percnt; block content &percnt;}</code> and <code>{&percnt; endblock content &percnt;}</code>, templatetags to your about.html page. The 'extends' tag should come at the very top and the block tags should surround your actual page content.
 
 Remove the parts of the about page that are allready in the base.html such as the outer &lt;html&gt; tags, everything between the &lt;head&gt;...&lt;/head&gt; tags, as well as the &lt;body&gt; tags and any navigation if you have made some and don't want to use it anymore. If you want to keep using parts of your static css files you need to either add those parts to the blog.css file, or you need to copy the line where you link this css file from the about.html into the base.html head.
 

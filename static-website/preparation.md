@@ -45,7 +45,9 @@ On GitHub we will know create a new repository and then clone this to our own co
 
 In your browser go to `https://github.com/new` \(if you get a 404 error, you will have to login first\). You only have to fill in the field called repository as follows: `username.github.io` with your own GitHub username instead of the word username. Make sure that the part before the first dot is exactly the same as your GitHub username. This is because GitHub will only display the files of the repository called exactly like this as a website \(the other directories will just be displayed as code files\) on `http://username.github.io`. Then press 'Create Repository'.
 
-Now you can go back to the Terminal and clone the repository you just created to your computer with the command line commands below. To do this always replace username with your GitHub username, and replace Your Name and you@example.com with your name and email address. The lines that don't start with a dollar sign '$' are not meant to be typed by you, they are the answers of the computer to your commands. Your Terminal should respond more or less the same way as in the example below.
+Now you can go back to the Terminal and clone the repository you just created to your computer with the command line commands below. To do this always replace username with your GitHub username, and replace Your Name and you@example.com with your name and email address. Make sure to *not* replace `user.name` and `user.email`, with those you tell Git which settings you want to change.
+
+The lines that don't start with a dollar sign '$' are not meant to be typed by you, they are the answers of the computer to your commands. Your Terminal should respond more or less the same way as in the example below.
 
 command-line
 

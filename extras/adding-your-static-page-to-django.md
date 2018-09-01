@@ -44,7 +44,7 @@ So now you have made your static page available inside your Django project. But 
 
 It is a good idea to keep using bootstrap as you did in your django blog project. Bootstrap can help you make a nice looking website quicker. If you want to know more about using bootstrap you can look in the official documentation on [http://getbootstrap.com](http://getbootstrap.com) \(the css and components parts are an interesting place to start\) or follow a bootstrap tutorial \(for example on codecademy:  [https://www.codecademy.com/courses/web-beginner-en-yjvdd/0/1\](https://www.codecademy.com/courses/web-beginner-en-yjvdd/0/1%29\)
 
-Add the {% raw %} `{% extends 'blog/base.html' %}`_ {% endraw %} and {% raw %} _`{% block content %}` {% endraw %} and {% raw %} `{% endblock content %}` {% endraw %}, templatetags to your about.html page. The 'extends' tag should come at the very top and the block tags should surround your actual page content.
+Add the `{% raw %}{% extends 'blog/base.html' %}{% endraw %}` and `{% raw %}{% block content %}{% endraw %}` and `{% raw %}{% endblock content %}{% endraw %}`, templatetags to your about.html page. The 'extends' tag should come at the very top and the block tags should surround your actual page content.
 
 Remove the parts of the about page that are allready in the base.html such as the outer &lt;html&gt; tags, everything between the &lt;head&gt;...&lt;/head&gt; tags, as well as the &lt;body&gt; tags and any navigation if you have made some and don't want to use it anymore. If you want to keep using parts of your static css files you need to either add those parts to the blog.css file, or you need to copy the line where you link this css file from the about.html into the base.html head.
 
